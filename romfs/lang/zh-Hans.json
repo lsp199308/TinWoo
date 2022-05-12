@@ -59,6 +59,8 @@
                 "alt_name": "Google 云盘文件",
                 "source_string": " (来源: Google 云盘)"
             },
+	    "index_error": "未发现游戏",
+            "index_error_info": "你输入了正确的URL?",
             "top_info": "在选择您要安装的文件，然后按 \ue0ef 键。",
             "top_info1": "正在等待连接… 您 Switch 的 IP 地址是：",
             "failed": "远程安装失败！",
@@ -170,6 +172,7 @@
             "auto_update": "自动检查 TinWoo Installer 更新",
             "gay_option": "使用主题",
             "useSound": "安装时开启音效通知",
+	    "useoldphp": "使用旧php进行http安装",
             "sig_url": "签名补丁来源链接 (URL)：",
             "language": "语言：",
             "check_update": "检查 TinWoo Installer 更新",
