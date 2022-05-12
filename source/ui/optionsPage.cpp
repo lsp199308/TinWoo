@@ -19,7 +19,7 @@ namespace inst::ui {
     extern MainApplication *mainApp;
     s32 prev_touchcount=0;
 
-    std::vector<std::string> languageStrings = {"En", "Jpn", "Fr", "De", "It", "Ru", "Zh"};
+    std::vector<std::string> languageStrings = {"En", "Jpn", "Fr", "De", "It", "Ru", "繁体", "简体" };
 
     optionsPage::optionsPage() : Layout::Layout() {
     		this->infoRect = Rectangle::New(0, 95, 1280, 60, COLOR("#00000080"));
@@ -307,6 +307,9 @@ namespace inst::ui {
                               break;
                           case 6:
                               inst::config::languageSetting = 6;
+                              break;
+			  case 7:
+                              inst::config::languageSetting = 7;
                               break;
                           default:
                               inst::config::languageSetting = 99;
