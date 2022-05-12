@@ -256,7 +256,7 @@ namespace inst::ui {
                       inst::config::setConfig();
                       break;
                  
-                 case 7:
+                  case 7:
                       if (inst::config::useoldphp) {
                           inst::config::useoldphp = false;
                       }
