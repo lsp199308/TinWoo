@@ -1,48 +1,48 @@
 {
     "main":{
         "menu": {
-            "sd": "使用 SD 卡安装",
-            "net": "使用局域网或互联网安装",
-            "usb": "使用USB进行安裝",
-			"hdd": "使用USB HDD硬盘进行安裝",
+            "sd": "通过 SD 卡安装",
+            "net": "通过局域网或互联网安装",
+            "usb": "通过 USB 安装",
+            "hdd": "通过 USB 硬盘安装",
             "sig": "管理签名补丁",
             "set": "设置",
             "exit": "退出"
         },
 		"theme": {
             "title": "使用主题",
-            "desc": "请按“确定”退出 Tinwoo 或“取消”以继续使用。\n\n主题将在下次启动 Tinwoo 时激活。"
+            "desc": "请按“确定”退出 Tinwoo 或“取消”以继续使用。\n\n主题将从下次启动 Tinwoo 时激活。"
 		},
 		"hdd": {
-            "title": "USB HDD硬盘",
-            "notfound": "未连接 USB HDD硬盘"
-        },
+            "title": "USB 硬盘",
+            "notfound": "未连接 USB 硬盘。"
+		},
         "net": {
             "title": "网络连接不可用",
             "desc": "请确认飞行模式已关闭，且已连接到本地网络。"
         },
         "usb": {
             "warn": {
-                "title": "注意！",
-                "desc": "USB 安装在某些设备及环境下不一定能正常使用”。\n如果您在使用 USB 安装时遇到问题，请不要心急！\n建议使用 NS-USBloader 来进行 USB 安装，\n或另行通过网络进行安装！\n\n特此警示。",
+                "title": "警告！",
+                "desc": "USB 安装在某些设备及环境下不一定能正常“将就使用”。\n如果您在使用 USB 安装时遇到问题，请不要心急！\n建议使用 NS-USBloader 来进行 USB 安装，\n或另行通过网络进行安装！\n\n特此警示。",
                 "opt1": "不再提示"
             },
             "error": {
                 "title": "未检测到 USB 连接",
-                "desc": "请通过 USB数据线连接到电脑设备"
+                "desc": "请通过 USB 连接到兼容设备"
             }
         },
         "applet": {
             "title": "不支持 Applet 模式",
             "desc": "在 Applet 模式下使用 TinWoo Installer 可能会遇到问题。\n若出现问题，请改以“软件替换”模式启动。\n(回到 \ue0f4 主菜单，按住 \ue0e5 并启动任意已安装游戏，进入 hbmenu 后再重新运行 TinWoo Installer。)"
         },
-        "buttons": "\ue0e0 选择    \ue0e4+\ue0e5 - \ue0ef - \ue0f0 退出"
-    },   
+        "buttons": "\ue0e0 选择　\ue0e4+\ue0e5 或 \ue0ef 和 \ue0f0 退出"
+    },
     "inst": {
         "net": {
             "help": {
                 "title": "帮助",
-                "desc": "可以从其他设备使用某些工具远程安装文件，如 NS-USBloader (Tinfoil 模式)。\n要向 Switch 发送文件，打开电脑或者移动设备上任一工具软件，\n输入屏幕上显示的 Switch IP 地址，选择文件，然后上传到您的主机。\n若您使用的工具软件不支持选择特定文件类型，您可以尝试更改为可接受的文件扩展名。\nTinWoo Installer 在通过网络安装时不限定文件扩展名。\n\n如果实在搞不懂，请复制文件到 SD 卡并尝试在主菜单中选择“通过 SD 卡安装”。""
+                "desc": "可以从其他设备使用某些工具远程安装文件，如 NS-USBloader (Tinfoil 模式)。\n要向 Switch 发送文件，打开电脑或者移动设备上任一工具软件，\n输入屏幕上显示的 Switch IP 地址，选择文件，然后上传到您的主机。\n若您使用的工具软件不支持选择特定文件类型，您可以尝试更改为可接受的文件扩展名。\nTinWoo Installer 在通过网络安装时不限定文件扩展名。\n\n如果实在搞不懂，请复制文件到 SD 卡并尝试在主菜单中选择“通过 SD 卡安装”。"
             },
             "src": {
                 "title": "请选择安装来源",
@@ -52,66 +52,64 @@
             "url": {
                 "hint": "输入文件的链接地址 (URL)",
                 "invalid": "指定的URL地址无效！",
-                "source_string": "(来源: URL)"
+                "source_string": " (来源: URL)"
             },
             "gdrive": {
                 "hint": "输入 Google 云盘公共文件的 ID",
                 "alt_name": "Google 云盘文件",
-                "source_string": "(来源: Google 云盘)"
+                "source_string": " (来源: Google 云盘)"
             },
-            "index_error": "未发现游戏!",
-            "index_error_info": "你输入了正确的URL吗?",
-            "top_info": "在选择您要安装的文件，然后按 + 键。",
-            "top_info1": "正在等待连接… 您 Switch 的 IP 地址是： ",
+            "top_info": "在选择您要安装的文件，然后按 \ue0ef 键。",
+            "top_info1": "正在等待连接… 您 Switch 的 IP 地址是：",
             "failed": "远程安装失败！",
             "transfer_interput": "数据传输发生错误，请检查网络连接。",
             "source_string": " (来源：本地网络)",
-            "buttons": "\ue0e3 互联网安装    \ue0e2 帮助    \ue0e1 取消",
-            "buttons1": "\ue0e0 选择文件    \ue0e3 全选    \ue0ef 安装选中文件    \ue0e1 取消"
+            "buttons": "\ue0e3 互联网安装　\ue0e2 帮助　\ue0e1 取消",
+            "buttons1": "\ue0e0 选择文件　\ue0e3 全选　\ue0ef 安装选中文件　\ue0e1 取消"
         },
         "sd": {
             "help": {
                 "title": "帮助",
-                "desc": "复制 NSP、NSZ、XCI 或 XCZ 文件到 SD 卡，\n定位并选中想要安装的文件，然后按 + 键。"
+                "desc": "复制 NSP、NSZ、XCI 或 XCZ 文件到 SD 卡，\n定位并选中想要安装的文件，然后按 \ue0ef 键。"
             },
-            "top_info": "选择想要安装的文件，然后按 + 安装！",
-            "source_string": "(来源: SD 卡)",
+            "top_info": "选择想要安装的文件，然后按 \ue0ef 安装！",
+            "source_string": " (来源: SD 卡)",
             "delete_info": " 安装完成！是否将原文件从 SD 卡中删除？",
             "delete_info_multi": " 个文件安装成功！是否将原文件从 SD 卡中删除？",
             "delete_desc": "安装完成后已不需要原文件。",
-            "buttons": "\ue0e0 选择文件    \ue0e3 全选    \ue0ef 安装选中文件    \ue0e2 帮助    \ue0e1 取消"
+            "buttons": "\ue0e0 选择文件　\ue0e3 全选　\ue0ef 安装选中文件　\ue0e2 帮助　\ue0e1 取消"
         },
-		"hd": {
+        "hd": {
             "help": {
                 "title": "帮助",
-                "desc": "复制 NSP、NSZ、XCI 或 XCZ 文件到硬盘，\n定位并选中想要安装的文件，然后按 + 键。"
+                "desc": "复制 NSP、NSZ、XCI 或 XCZ 文件到硬盘，\n定位并选中想要安装的文件，然后按 \ue0ef 键。"
             },
-            "top_info": "选择想要安装的文件，然后按 + 安装！",
+            "top_info": "选择想要安装的文件，然后按 \ue0ef 安装！",
             "source_string": " (来源: 硬盘)",
             "delete_info": " 安装完成！\n是否将原文件从硬盘中删除？",
             "delete_info_multi": " 个文件安装成功！\n是否将原文件从硬盘中删除？",
             "delete_desc": "安装完成后已不需要原文件。",
-            "buttons": "\ue0e0 选择文件    \ue0e3 全选   \ue0ef 安装选中文件    \ue0e2 帮助    \ue0e1 取消"
+            "buttons": "\ue0e0 选择文件　\ue0e3 全选　\ue0ef 安装选中文件　\ue0e2 帮助　\ue0e1 取消"
         },
         "usb": {
             "help": {
                 "title": "帮助",
-                "desc": "可以通过 USB 从其他设备使用某些工具安装文件，如 NS-USBloader (Tinfoil 模式)。\n要向 Switch 发送文件，打开电脑或者移动设备上任一工具软件，\n输入屏幕上显示的 Switch IP 地址，选择文件，然后上传到您的主机。\n若您使用的工具软件不支持选择特定文件类型，您可以尝试更改为可接受的文件扩展名。\nTinWoo Installer 在通过网络安装时不限定文件扩展名。\n\n如果实在搞不懂，请复制文件到 SD 卡并尝试在主菜单中选择“通过 SD 卡安装”。""
+                "desc": "可以通过 USB 从其他设备使用某些工具安装文件，如 NS-USBloader (Tinfoil 模式)。\n要向 Switch 发送文件，打开电脑或者移动设备上任一工具软件，\n输入屏幕上显示的 Switch IP 地址，选择文件，然后上传到您的主机。\n若您使用的工具软件不支持选择特定文件类型，您可以尝试更改为可接受的文件扩展名。\nTinWoo Installer 在通过网络安装时不限定文件扩展名。\n\n如果实在搞不懂，请复制文件到 SD 卡并尝试在主菜单中选择“通过 SD 卡安装”。"
             },
             "top_info": "USB 连接成功！正等待接收文件列表...",
-            "top_info2": "选择将要通过 USB 安装的文件，然后按 + 键。",
+            "top_info2": "选择将要通过 USB 安装的文件，然后按 \ue0ef 键。",
             "error": "USB 传输超时或失败",
             "source_string": " (来源: USB)",
-            "buttons": "\ue0e2  (按住) 帮助    \ue0e1(按住) 取消",
-            "buttons2": "\ue0e0 选择文件    \ue0e3 全选    \ue0ef 安装选中文件    \ue0e1 取消"
+            "buttons": "\ue0e2 (按住) 帮助　\ue0e1 (按住) 取消",
+            "buttons2": "\ue0e0 选择文件　\ue0e3 全选　\ue0ef 安装选中文件　\ue0e1 取消"
         },
         "target": {
-            "desc0": "请选择",
+            "desc0": "请选择 ",
             "desc1": " 的安装位置",
             "desc00": "请选择已选 ",
-            "desc01": "个文件的安装位置？",
-            "opt0": "SD卡",
-            "opt1": "NAND或EMUNAND"
+            "desc01": " 个文件的安装位置？",
+            "opt0": "SD 卡",
+            "opt1": "内部存储"
         },
         "info_page": {
             "top_info0": "正在安装 ",
@@ -122,7 +120,7 @@
             "desc0": " 个文件安装成功！",
             "desc1": " 已安装！",
             "downloading": "正在下载 ",
-            "at": " 速度 "
+            "at": " , 速度 "
         },
         "nca_verify": {
             "title": "检测到无效 NCA 签名！",
@@ -150,7 +148,7 @@
         "backup_failed": "无法备份 Hekate 的 patches.ini！是否继续？",
         "backup_failed_desc": "如果您不使用 Hekate，请忽略此警告。",
         "download_failed": "无法下载签名补丁",
-        "download_failed_desc": "您可能在TinWoo设置中设定了无效来源，\n或者服务器可能暂时无法访问。",
+        "download_failed_desc": "您可能在设置中设定了无效来源，\n或者服务器可能暂时无法访问。",
         "version_text2": "您的签名补丁已更新至 HOS 最高适配版本 ",
         "install_complete": "安装完成！",
         "complete_desc": "重启主机以生效",
@@ -167,12 +165,11 @@
         "menu_items": {
             "ignore_firm": "忽略软件最低固件版本要求",
             "nca_verify": "安装前验证 NCA 签名",
-            "boost_mode": "安装时启用\"超频\"",
+            "boost_mode": "安装时启用\"加速模式\"",
             "ask_delete": "安装后询问文件是否删除",
             "auto_update": "自动检查 TinWoo Installer 更新",
             "gay_option": "使用主题",
             "useSound": "安装时开启音效通知",
-            "useoldphp": "使用旧的php文件进行http安装",
             "sig_url": "签名补丁来源链接 (URL)：",
             "language": "语言：",
             "check_update": "检查 TinWoo Installer 更新",
@@ -186,12 +183,12 @@
         "sig_hint": "输入签名补丁来源链接 (URL)",
         "update": {
             "title": "发现新版本",
-            "desc0": "Tinwoo Installer ",
+            "desc0": "TinWoo Installer ",
             "desc1": " 已经发布！是否更新？",
             "opt0": "更新",
-            "top_info": "正在更新Tinwoo Installer",
-            "bot_info": "正在下载Tinwoo Installer",
-            "bot_info2": "正在解压Tinwoo Installer",
+            "top_info": "正在更新 TinWoo Installer ",
+            "bot_info": "正在下载 TinWoo Installer ",
+            "bot_info2": "正在解压 TinWoo Installer ",
             "complete": "更新完成！",
             "failed": "更新失败！",
             "end_desc": "此软件将关闭。",
@@ -200,15 +197,15 @@
         },
         "credits": {
             "title": "感谢以下朋友！",
-            "desc": "TinWoo - MrDude\nXorTroll - Plutonium\nTinleaf - BlaWar\nAwoo Installer - Huntereb\nHard Drive Support - DarkMatterCore\n\n\nhttps://github.com/Huntereb/Awoo-Installer\nhttps://github.com/blawar/tinleaf\nhttps://github.com/DarkMatterCore/libusbhsfs\n\nThanks for testing - LyuboA"
+            "desc": "TinWoo - MrDude\nTinWoo - BlaWar\nAwoo Installer - Huntereb\n硬盘支持 - DarkMatterCore\n\n\nhttps://github.com/Huntereb/Awoo-Installer\nhttps://github.com/blawar/TinWoo\nhttps://github.com/DarkMatterCore/libusbhsfs\n\n感谢测试 - LyuboA"
         },
         "language": {
             "title": "选择 TinWoo Installer 语言",
-            "desc": "软件将在更改语言后关闭。按 B 键取消。",
+            "desc": "软件将在更改语言后关闭。按 \ue0e1 取消。",
             "system_language": "系统默认"
         },
         "title": "更改 TinWoo Installer 的设置！",
-        "buttons": "\ue0e0 选择/更改    \ue0e1 取消"
+        "buttons": "\ue0e0 选择/更改　\ue0e1 取消"
     },
     "common": {
         "ok": "确定",
@@ -216,6 +213,6 @@
         "close": "关闭",
         "yes": "是",
         "no": "否",
-        "cancel_desc": "按 B 键取消"
+        "cancel_desc": "按 \ue0e1 取消"
     }
-}
+} 
